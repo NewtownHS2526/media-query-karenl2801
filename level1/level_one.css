@@ -31,3 +31,32 @@ body {
   }
   
   /* Insert @Media queries here! */
+  @media (max-width: 1200px) {
+    .main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .webpage {
+        margin: 40px 60px;
+    }
+  }
+
+  @media (max-width: 992x) {
+    .main {
+        grid-template-columns: repeat(1, 1 fr);
+        gap: 15px;
+    }
+
+    .webpage {
+        margin: 25px 40px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .main {grid-template-columns: 1fr;
+    gap: 15px;
+}
+.webpage {
+    margin: 20px;
+}
+  }
