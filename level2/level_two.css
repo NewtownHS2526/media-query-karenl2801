@@ -12,7 +12,6 @@ body {
   
   .footer {
     height: 120px;
-  
     margin-top: 100px;
     padding-top: 20px;
     border-top: solid;
@@ -35,3 +34,19 @@ body {
   }
   
   /* Insert @Media queries here! */
+  @media (max-width: 1200px) {
+    .header {
+      justify-content: space-around;
+      font-size: medium;
+      gap: 30px;
+    }
+  }
+
+  @media (max-width: 782px) {
+    .header {
+      justify-content: space-between;
+      gap: 15px;
+      font-size: 13px;
+      flex-wrap: wrap;
+    }
+  }
