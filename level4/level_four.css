@@ -43,3 +43,32 @@
   }
   
   /* Insert @Media queries here! */
+
+  @media (max-width: 1200px) {
+    .nav-item {
+      display: inline;
+    }
+
+    .item {
+      display: inline;
+    }
+    }
+
+    @media (max-width: 992px) {
+    .nav-item {
+      display: none;
+    }
+
+    .item {
+      display: none;
+    }
+
+    .dropdown {
+      display: inline;
+    }
+
+    .main-nav {
+      justify-content: center;
+    }
+    }
+   
